@@ -17,6 +17,8 @@ N = int(input())
 
 output = (pot * (1-pct)) + (pct * (2/N))
 
+#here pot is on time and first there is no car trouble and we see the condition if there is car trouble than choice of selection of train from 2
+
 print('%.6f' % output)
 
 Answer
