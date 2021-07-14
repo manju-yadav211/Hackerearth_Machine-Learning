@@ -5,4 +5,19 @@ The probability that he might have car trouble is pct.
 If the car runs into trouble he will have to take a train and only 2 trains out of the available N trains will get him to office on time.
 
 What are the chances that he will reach office on time tomorrow?
+
+@Answer
+
+# Write your code here
+
+pct = float(input())
+pot = float(input())
+N = int(input())
+#1-pct is because he had no car trouble
+
+output = (pot * (1-pct)) + (pct * (2/N))
+
+print('%.6f' % output)
+
+Answer
 '''
